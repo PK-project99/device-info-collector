@@ -2,8 +2,7 @@
 
 ## What it does
 - logs into any device using SSH. Login credentials have to be specified
-- 
-- 
+
 
 ## Requirements
 ```
@@ -21,12 +20,13 @@ python device_info.py
 ```
 
 ## Sample output
+![Success](Screenshot_Success.png)
+
+![Error](Screenshot_Error.png)
+
+
+
 ```
-![Output](Screenshot_Success.png) ![Output2](Screenshot_Error.png)
-
-
-
-
 connecting to device...
 Connected! Running commands...
 
@@ -69,3 +69,7 @@ Disconnected
 - Netmiko library
 - Error handling
 - Cisco CLI commands
+
+
+## Why this matters":
+- Manually SSHing into 50 devices takes hours.This script does it in seconds
